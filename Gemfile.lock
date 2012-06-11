@@ -59,6 +59,9 @@ GEM
       multi_json (~> 1.0)
     factory_girl (3.4.0)
       activesupport (>= 3.0.0)
+    factory_girl_rails (3.4.0)
+      factory_girl (~> 3.4.0)
+      railties (>= 3.0.0)
     ffi (1.0.11)
     haml (3.1.6)
     haml-rails (0.3.4)
@@ -173,7 +176,7 @@ PLATFORMS
 DEPENDENCIES
   bson_ext
   coffee-rails (~> 3.2.1)
-  factory_girl
+  factory_girl_rails
   haml-rails
   jquery-rails
   mongoid (~> 3.0.0.rc)
