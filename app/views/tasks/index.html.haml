@@ -1,0 +1,8 @@
+#tasks
+
+:javascript
+  $(function() {
+    // Blog is the app name
+    window.router = new Todo.Routers.TasksRouter({tasks: #{@tasks.to_json.html_safe}});
+    Backbone.history.start();
+  });
